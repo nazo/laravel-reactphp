@@ -1,0 +1,33 @@
+{
+    "name": "nazo/laravel-reactphp",
+    "type": "library",
+    "description": "ReactPHP Server On Laravel 5.0",
+    "keywords": ["ReactPHP", "Laravel", "server"],
+    "homepage": "http://github.com/nazo/laravel-reactphp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Takuya Sato",
+            "email": "takuya0219@gmail.com",
+            "homepage": "https://github.com/nazo"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.0.*",
+        "react/react": "0.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelReactPHP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelReactPHP\\Tests\\": "tests/"
+        }
+    }
+}
